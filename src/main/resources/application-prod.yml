@@ -4,7 +4,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://192.168.85.133:8084
+        url: http://192.168.85.132:8084
   cloud:
     config:
       label: master
@@ -16,7 +16,7 @@ spring:
           username: 1090863704@qq.com
           password: wf5201314
   zipkin:
-    base-url: http://192.168.85.133:9411
+    base-url: http://192.168.85.132:9411
 
 server:
   port: 8888
@@ -24,7 +24,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.85.133:8761/eureka/
+      defaultZone: http://192.168.85.132:8761/eureka/
 
 management:
   endpoint:
