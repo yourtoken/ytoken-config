@@ -14,4 +14,4 @@ eureka:
     # 表示是否从 Eureka 获取注册信息，如果是单一节点，不需要同步其他 Eureka 节点，则可以设置为 false，但此处为集群，应该设置为 true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://ip:${server.port}/eureka/,http://ip:${server.port}/eureka/,http://ip:${server.port}/eureka/
+      defaultZone: http://192.168.85.132:8761/eureka/,http://192.168.85.132:8861/eureka/,http://192.168.85.132:8961/eureka/
